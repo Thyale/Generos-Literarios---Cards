@@ -1,0 +1,151 @@
+@media all /*pc e telas maiores*/ {
+  /*gerais*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  body{
+    background-color: #2F1D43;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  /*main*/
+
+  .DivPrincipal{
+    background-color: #DFCAF5;
+    padding:1em;
+    border-radius: 10px;
+    width: 500px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .BarraSuperiorGeneros{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .TextoFantasia{
+    background-color: #B198CE;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 23px;
+  }
+
+  .TextoRomance{
+    background-color: #DFCAF5;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 20px;
+  }
+
+  .TextoMisterio{
+    background-color: #DFCAF5;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 23px;
+  }
+
+  .TextoAventura{
+    background-color: #DFCAF5;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 25px;
+  }
+
+  .GenerosTextos{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    background-color:#B198CE;
+    border-radius: 0px 0px 10px 10px;
+    padding: 1em;
+    align-items: center;
+  }
+
+  .GenerosTextos div{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .GenerosTextos p{
+    letter-spacing: 2px;
+  }
+
+  .Imagensicones{
+    width: 150px;
+    height: 150px;
+  }
+
+  #DivAventura,#DivMisterio,#DivRomance{
+    display: none;
+
+}
+
+/*Estilos para dispositivos móveis*/
+@media (max-width: 568px) {
+
+  .DivPrincipal{
+    width: 70%;
+  }
+
+  .BarraSuperiorGeneros{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .TextoFantasia{
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .TextoRomance{
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .TextoMisterio{
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .TextoAventura{
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .GenerosTextos{
+    flex-direction: column;
+    gap: 3em;
+    background-color:#B198CE;
+    border-radius: 10px;
+  }
+
+  .Imagensicones{
+    width: 100px;
+    height: 100px;
+  }
+
+  #DivAventura,#DivMisterio,#DivRomance{
+    display:none;
+  }
+}
+
