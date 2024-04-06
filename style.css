@@ -44,24 +44,28 @@
     background-color: #B198CE;
     border-radius: 10px 10px 0px 0px;
     padding: 10px 23px;
+    cursor: pointer;
   }
 
   .TextoRomance{
     background-color: #DFCAF5;
     border-radius: 10px 10px 0px 0px;
     padding: 10px 20px;
+    cursor: pointer;
   }
 
   .TextoMisterio{
     background-color: #DFCAF5;
     border-radius: 10px 10px 0px 0px;
     padding: 10px 23px;
+    cursor: pointer;
   }
 
   .TextoAventura{
     background-color: #DFCAF5;
     border-radius: 10px 10px 0px 0px;
     padding: 10px 25px;
+    cursor: pointer;
   }
 
   .GenerosTextos{
